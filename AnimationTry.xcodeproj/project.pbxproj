@@ -8,26 +8,64 @@
 
 /* Begin PBXBuildFile section */
 		872051B024DF2BD20009E3B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872051AF24DF2BD20009E3B4 /* AppDelegate.swift */; };
-		872051B224DF2BD20009E3B4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 872051B124DF2BD20009E3B4 /* GameScene.sks */; };
-		872051B424DF2BD20009E3B4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 872051B324DF2BD20009E3B4 /* Actions.sks */; };
 		872051B624DF2BD20009E3B4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872051B524DF2BD20009E3B4 /* GameScene.swift */; };
 		872051B824DF2BD20009E3B4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872051B724DF2BD20009E3B4 /* GameViewController.swift */; };
 		872051BB24DF2BD20009E3B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 872051B924DF2BD20009E3B4 /* Main.storyboard */; };
 		872051BD24DF2BD30009E3B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 872051BC24DF2BD30009E3B4 /* Assets.xcassets */; };
 		872051C024DF2BD30009E3B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 872051BE24DF2BD30009E3B4 /* LaunchScreen.storyboard */; };
+		872051CB24DF2D4B0009E3B4 /* Orc1_Attacking.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 872051C924DF2D4B0009E3B4 /* Orc1_Attacking.atlas */; };
+		872051CC24DF2D4B0009E3B4 /* Orc1_Dying.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 872051CA24DF2D4B0009E3B4 /* Orc1_Dying.atlas */; };
+		872051CF24DF2FBC0009E3B4 /* Orc1_Idle.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 872051CE24DF2FBC0009E3B4 /* Orc1_Idle.atlas */; };
+		8733113324E2A17700A2155C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8733113224E2A17700A2155C /* GameScene.sks */; };
+		8733113524E2A32F00A2155C /* TouchPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8733113424E2A32F00A2155C /* TouchPad.swift */; };
+		8733113724E2B4CC00A2155C /* TouchPadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8733113624E2B4CC00A2155C /* TouchPadManager.swift */; };
+		87BAC62924E3460400A21CC3 /* Orc1_JumpStart.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 87BAC62324E3460300A21CC3 /* Orc1_JumpStart.atlas */; };
+		87BAC62A24E3460400A21CC3 /* Orc1_Hurt.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 87BAC62424E3460300A21CC3 /* Orc1_Hurt.atlas */; };
+		87BAC62B24E3460400A21CC3 /* Orc1_IdleBlink.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 87BAC62524E3460300A21CC3 /* Orc1_IdleBlink.atlas */; };
+		87BAC62C24E3460400A21CC3 /* Orc1_Walking.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 87BAC62624E3460400A21CC3 /* Orc1_Walking.atlas */; };
+		87BAC62D24E3460400A21CC3 /* Orc1_JumpLoop.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 87BAC62724E3460400A21CC3 /* Orc1_JumpLoop.atlas */; };
+		87BAC62E24E3460400A21CC3 /* Orc1_Taunt.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 87BAC62824E3460400A21CC3 /* Orc1_Taunt.atlas */; };
+		87BBC9EF24E2994700F88FBB /* Orc1Animations.sks in Resources */ = {isa = PBXBuildFile; fileRef = 87BBC9EE24E2994700F88FBB /* Orc1Animations.sks */; };
+		87FBCB9A24E3BBAA007E79E9 /* MovementProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FBCB9924E3BBAA007E79E9 /* MovementProtocol.swift */; };
+		87FBCB9C24E3FA2B007E79E9 /* AttackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FBCB9B24E3FA2B007E79E9 /* AttackButton.swift */; };
+		87FBCB9E24E3FC5A007E79E9 /* AttackButtonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FBCB9D24E3FC5A007E79E9 /* AttackButtonManager.swift */; };
+		87FBCBA024E3FCB2007E79E9 /* AttackingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FBCB9F24E3FCB2007E79E9 /* AttackingProtocol.swift */; };
+		87FC14AA24DFE4FD00758A12 /* Atlases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FC14A924DFE4FD00758A12 /* Atlases.swift */; };
+		87FC14AC24DFEAFB00758A12 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FC14AB24DFEAFB00758A12 /* Assets.swift */; };
+		87FC14AE24DFED7D00758A12 /* Orc1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FC14AD24DFED7D00758A12 /* Orc1.swift */; };
+		87FC14B024DFEDC400758A12 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FC14AF24DFEDC400758A12 /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		872051AC24DF2BD20009E3B4 /* AnimationTry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationTry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		872051AF24DF2BD20009E3B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		872051B124DF2BD20009E3B4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		872051B324DF2BD20009E3B4 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		872051B524DF2BD20009E3B4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		872051B724DF2BD20009E3B4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		872051BA24DF2BD20009E3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		872051BC24DF2BD30009E3B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		872051BF24DF2BD30009E3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		872051C124DF2BD30009E3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		872051C924DF2D4B0009E3B4 /* Orc1_Attacking.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Orc1_Attacking.atlas; sourceTree = "<group>"; };
+		872051CA24DF2D4B0009E3B4 /* Orc1_Dying.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Orc1_Dying.atlas; sourceTree = "<group>"; };
+		872051CE24DF2FBC0009E3B4 /* Orc1_Idle.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Orc1_Idle.atlas; sourceTree = "<group>"; };
+		8733113224E2A17700A2155C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		8733113424E2A32F00A2155C /* TouchPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchPad.swift; sourceTree = "<group>"; };
+		8733113624E2B4CC00A2155C /* TouchPadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchPadManager.swift; sourceTree = "<group>"; };
+		87BAC62324E3460300A21CC3 /* Orc1_JumpStart.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Orc1_JumpStart.atlas; sourceTree = "<group>"; };
+		87BAC62424E3460300A21CC3 /* Orc1_Hurt.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Orc1_Hurt.atlas; sourceTree = "<group>"; };
+		87BAC62524E3460300A21CC3 /* Orc1_IdleBlink.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Orc1_IdleBlink.atlas; sourceTree = "<group>"; };
+		87BAC62624E3460400A21CC3 /* Orc1_Walking.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Orc1_Walking.atlas; sourceTree = "<group>"; };
+		87BAC62724E3460400A21CC3 /* Orc1_JumpLoop.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Orc1_JumpLoop.atlas; sourceTree = "<group>"; };
+		87BAC62824E3460400A21CC3 /* Orc1_Taunt.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Orc1_Taunt.atlas; sourceTree = "<group>"; };
+		87BBC9EE24E2994700F88FBB /* Orc1Animations.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Orc1Animations.sks; sourceTree = "<group>"; };
+		87FBCB9924E3BBAA007E79E9 /* MovementProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementProtocol.swift; sourceTree = "<group>"; };
+		87FBCB9B24E3FA2B007E79E9 /* AttackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttackButton.swift; sourceTree = "<group>"; };
+		87FBCB9D24E3FC5A007E79E9 /* AttackButtonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttackButtonManager.swift; sourceTree = "<group>"; };
+		87FBCB9F24E3FCB2007E79E9 /* AttackingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttackingProtocol.swift; sourceTree = "<group>"; };
+		87FC14A924DFE4FD00758A12 /* Atlases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atlases.swift; sourceTree = "<group>"; };
+		87FC14AB24DFEAFB00758A12 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		87FC14AD24DFED7D00758A12 /* Orc1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orc1.swift; sourceTree = "<group>"; };
+		87FC14AF24DFEDC400758A12 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +98,100 @@
 		872051AE24DF2BD20009E3B4 /* AnimationTry */ = {
 			isa = PBXGroup;
 			children = (
+				872051C724DF2CAC0009E3B4 /* Sprites */,
 				872051AF24DF2BD20009E3B4 /* AppDelegate.swift */,
-				872051B124DF2BD20009E3B4 /* GameScene.sks */,
-				872051B324DF2BD20009E3B4 /* Actions.sks */,
 				872051B524DF2BD20009E3B4 /* GameScene.swift */,
 				872051B724DF2BD20009E3B4 /* GameViewController.swift */,
+				8733113224E2A17700A2155C /* GameScene.sks */,
+				87FBCBA324E3FD10007E79E9 /* Protocols */,
+				87FBCBA224E3FD00007E79E9 /* CustomUI */,
 				872051B924DF2BD20009E3B4 /* Main.storyboard */,
 				872051BC24DF2BD30009E3B4 /* Assets.xcassets */,
 				872051BE24DF2BD30009E3B4 /* LaunchScreen.storyboard */,
 				872051C124DF2BD30009E3B4 /* Info.plist */,
+				87BAC58B24E3447200A21CC3 /* Helpers */,
+				87BAC58C24E3448B00A21CC3 /* Orc1 */,
 			);
 			path = AnimationTry;
+			sourceTree = "<group>";
+		};
+		872051C724DF2CAC0009E3B4 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				872051C824DF2CB80009E3B4 /* Orc1 */,
+			);
+			path = Sprites;
+			sourceTree = "<group>";
+		};
+		872051C824DF2CB80009E3B4 /* Orc1 */ = {
+			isa = PBXGroup;
+			children = (
+				87BAC62424E3460300A21CC3 /* Orc1_Hurt.atlas */,
+				87BAC62524E3460300A21CC3 /* Orc1_IdleBlink.atlas */,
+				87BAC62724E3460400A21CC3 /* Orc1_JumpLoop.atlas */,
+				87BAC62324E3460300A21CC3 /* Orc1_JumpStart.atlas */,
+				87BAC62824E3460400A21CC3 /* Orc1_Taunt.atlas */,
+				87BAC62624E3460400A21CC3 /* Orc1_Walking.atlas */,
+				872051CE24DF2FBC0009E3B4 /* Orc1_Idle.atlas */,
+				872051C924DF2D4B0009E3B4 /* Orc1_Attacking.atlas */,
+				872051CA24DF2D4B0009E3B4 /* Orc1_Dying.atlas */,
+			);
+			path = Orc1;
+			sourceTree = "<group>";
+		};
+		87BAC58824E3329D00A21CC3 /* TouchPad */ = {
+			isa = PBXGroup;
+			children = (
+				8733113424E2A32F00A2155C /* TouchPad.swift */,
+				8733113624E2B4CC00A2155C /* TouchPadManager.swift */,
+			);
+			path = TouchPad;
+			sourceTree = "<group>";
+		};
+		87BAC58B24E3447200A21CC3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				87FC14AF24DFEDC400758A12 /* Helper.swift */,
+				87FC14A924DFE4FD00758A12 /* Atlases.swift */,
+				87FC14AB24DFEAFB00758A12 /* Assets.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		87BAC58C24E3448B00A21CC3 /* Orc1 */ = {
+			isa = PBXGroup;
+			children = (
+				87BBC9EE24E2994700F88FBB /* Orc1Animations.sks */,
+				87FC14AD24DFED7D00758A12 /* Orc1.swift */,
+			);
+			path = Orc1;
+			sourceTree = "<group>";
+		};
+		87FBCBA124E3FCEA007E79E9 /* AttackButton */ = {
+			isa = PBXGroup;
+			children = (
+				87FBCB9B24E3FA2B007E79E9 /* AttackButton.swift */,
+				87FBCB9D24E3FC5A007E79E9 /* AttackButtonManager.swift */,
+			);
+			path = AttackButton;
+			sourceTree = "<group>";
+		};
+		87FBCBA224E3FD00007E79E9 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				87FBCBA124E3FCEA007E79E9 /* AttackButton */,
+				87BAC58824E3329D00A21CC3 /* TouchPad */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		87FBCBA324E3FD10007E79E9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				87FBCB9924E3BBAA007E79E9 /* MovementProtocol.swift */,
+				87FBCB9F24E3FCB2007E79E9 /* AttackingProtocol.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,11 +252,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				872051CB24DF2D4B0009E3B4 /* Orc1_Attacking.atlas in Resources */,
 				872051BB24DF2BD20009E3B4 /* Main.storyboard in Resources */,
-				872051B224DF2BD20009E3B4 /* GameScene.sks in Resources */,
+				87BAC62924E3460400A21CC3 /* Orc1_JumpStart.atlas in Resources */,
+				872051CC24DF2D4B0009E3B4 /* Orc1_Dying.atlas in Resources */,
+				872051CF24DF2FBC0009E3B4 /* Orc1_Idle.atlas in Resources */,
+				87BAC62A24E3460400A21CC3 /* Orc1_Hurt.atlas in Resources */,
 				872051BD24DF2BD30009E3B4 /* Assets.xcassets in Resources */,
+				87BAC62D24E3460400A21CC3 /* Orc1_JumpLoop.atlas in Resources */,
 				872051C024DF2BD30009E3B4 /* LaunchScreen.storyboard in Resources */,
-				872051B424DF2BD20009E3B4 /* Actions.sks in Resources */,
+				8733113324E2A17700A2155C /* GameScene.sks in Resources */,
+				87BAC62B24E3460400A21CC3 /* Orc1_IdleBlink.atlas in Resources */,
+				87BAC62E24E3460400A21CC3 /* Orc1_Taunt.atlas in Resources */,
+				87BAC62C24E3460400A21CC3 /* Orc1_Walking.atlas in Resources */,
+				87BBC9EF24E2994700F88FBB /* Orc1Animations.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,8 +276,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8733113724E2B4CC00A2155C /* TouchPadManager.swift in Sources */,
 				872051B624DF2BD20009E3B4 /* GameScene.swift in Sources */,
+				8733113524E2A32F00A2155C /* TouchPad.swift in Sources */,
+				87FBCB9E24E3FC5A007E79E9 /* AttackButtonManager.swift in Sources */,
+				87FC14B024DFEDC400758A12 /* Helper.swift in Sources */,
+				87FC14AA24DFE4FD00758A12 /* Atlases.swift in Sources */,
+				87FBCBA024E3FCB2007E79E9 /* AttackingProtocol.swift in Sources */,
+				87FC14AE24DFED7D00758A12 /* Orc1.swift in Sources */,
+				87FBCB9A24E3BBAA007E79E9 /* MovementProtocol.swift in Sources */,
+				87FBCB9C24E3FA2B007E79E9 /* AttackButton.swift in Sources */,
 				872051B824DF2BD20009E3B4 /* GameViewController.swift in Sources */,
+				87FC14AC24DFEAFB00758A12 /* Assets.swift in Sources */,
 				872051B024DF2BD20009E3B4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,7 +364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -278,7 +418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -295,6 +435,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4J36SSFMWJ;
 				INFOPLIST_FILE = AnimationTry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,6 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4J36SSFMWJ;
 				INFOPLIST_FILE = AnimationTry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
